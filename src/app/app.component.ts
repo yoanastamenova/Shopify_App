@@ -12,5 +12,5 @@ import { SideBarComponent } from './side-bar/side-bar.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Shopping';
+  title = 'Coffee Shop';
 }
