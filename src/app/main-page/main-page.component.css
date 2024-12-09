@@ -6,7 +6,7 @@
 .hero {
   background-image: url("../../../public/banner.jpg");
   background-repeat: no-repeat;
-  height: 30rem;
+  height: 300px;
   background-size: cover;
   background-position: center center;
 }
@@ -18,8 +18,50 @@
   padding: 10px 0;
 }
 
-img {
-  height: 3rem;
+.promo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 40px 0 40px 0;
+}
+
+.promo-main-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.promo-sub-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.part {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.part img {
+  width: 180px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 0.1rem solid black;
+}
+
+.promoted {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  border-top: 2px solid #888;
+  border-bottom: 2px solid #888;
+  padding: 10px 150px 10px 150px;
+}
+
+.promoted img {
+  width: 150px;
+  height: 150px;
 }
 
 /* .bottom {
